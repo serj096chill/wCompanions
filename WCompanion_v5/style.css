@@ -1,0 +1,104 @@
+nav{
+  background-color: #d4c1ec;
+}
+.HideOnDesktop{
+  display: none;
+}
+.background-pink{
+  position: absolute;
+  z-index: -30;
+}
+.wrapped{
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  z-index: 10;
+}
+
+.companion-home {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: -1;
+}
+.circlepop{
+  position: absolute;
+  z-index: -10;
+}
+.pointed{
+  position: absolute;
+  z-index: -9;
+}
+
+.pop-one{
+  left: 1000px;
+  top: 10px;
+}
+.pop-two{
+  left: 600px;
+  top: 100px;
+}
+.pop-three{
+  left: 1200px;
+  top:250px;
+}
+.pop-four{
+  left: 1200px;
+  top: 450px;
+}
+.pop-five{
+  left: 760px;
+  top: 280px;
+}
+.pop-seven{
+  left: 1000px;
+  top: 10px;
+  z-index: -11;
+}
+
+.card{
+  left: 7%;
+  top: 120px;
+  background-color: #97e0fe;
+  border-radius: 10px;
+}
+
+/* Serj */
+@media (max-width: 1200px) {
+  .HideOnMobile{
+    display: none;
+  }
+  .HideOnDesktop{
+    display: initial;
+  }
+  body{
+    background-color: #d4c1ec;
+
+  }
+  div{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+  .title-logo{
+    padding-top: 10px;
+    justify-content: center;
+  }
+  .card{
+    position: relative;
+    top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #97e0fe;
+  }
+  .img-circle{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    left: 0%;
+    top: 25%;
+    z-index: -1;
+  }
+}
